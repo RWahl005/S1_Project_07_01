@@ -17,11 +17,34 @@
 
 
 /* Hidden Objects */
+nav,
+footer,
+article {
+    /* Hides the nav, footer, and article */
+    display: none;
+}
 
-
-
-
-
-
+section#sheet {
+    /* Sets the width of the sheet to 6 inches. */
+    width: 6in;
+    /* Sets the top/bottom margin to 0 inches and left/right to auto so it centers the comic. */
+    margin: 0in auto;
+}
 
 /* Comic Book Sheet Styles */
+img.size1 {
+    /* Sets the width of the image to 5 inches. */
+    width: 5in;
+}
+
+img.size2 {
+    width: 3in;
+}
+
+img.size3 {
+    width: 2in;
+}
+
+img.size4 {
+    width: 1.5in;
+}
